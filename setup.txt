@@ -1,0 +1,16 @@
+1. Install Tensorflow API for object detection using the link:
+    "https://github.com/tensorflow/models/tree/master/object_detection"
+   Follow the Installation section.
+
+2. Update the PYTHONPATH env variable as mentioned in
+    "https://github.com/tensorflow/models/blob/master/object_detection/g3doc/installation.md#add-libraries-to-pythonpath"
+   
+3. In object_detection folder, launch the object_detection_tutorial.ipynb notebook.
+
+4. In the notebook modify the following variables:
+  (a) PATH_TO_CKPT='System-Integration-path>/model/frozen_inference_graph.pb'
+  (b) PATH_TO_LABELS='System-Integration-path>/data/object-detection.pbtxt'
+  (c) PATH_TO_TEST_IMAGES_DIR='System-Integration-path>/test_images'
+
+5. DO NOT RUN the "Download Model" section.
+
